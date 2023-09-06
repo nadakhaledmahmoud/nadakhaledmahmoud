@@ -6,8 +6,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Product preview card component</title>
-  <link rel="stylesheet" href="./style.css/style.css">
+  <title>Frontend Mentor | Order summary card</title>
+  <link rel="stylesheet" href="./css/style.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -16,38 +16,45 @@
   </style>
 </head>
 <body>
-
   <main>
-       <div class="img">
-        <img class="dsk-img"  src="images/image-product-desktop.jpg" alt=" ">
-        <img class="mob-img"  src="images/image-product-mobile.jpg" alt=" ">
-  </div>
+    <div>
+      
+  <div class="bg-image"></div>
+  <div class="container">
+    <div class="main-image ">
+      <img src="./images/illustration-hero.svg" alt="">
+    </div>
+    <h1>Order Summary</h1>
+    <p class="p-1">You can now listen to millions of songs, audiobooks, and podcasts on any 
+      device anywhere you like!</p>
+      <div class="price">
+        <div class="music">
+          <img src="images/icon-music.svg" alt="">
 
-
-      <div class="info">
-
-        <h1>  Perfume </h1>
-        <p class="name"> Gabrielle Essence Eau De Parfum </p>
-        <p class="desc">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-          Perfumer-Creator for the House of CHANEL.</p>
-
-          <div class="pris">
-            <div class="new">  $149.99 </div>
-            <div class="old"> $169.99 </div>
+          <div class="annual">
+            <p class="p-2">Annual Plan</p>
+            <p class="p-3">$59.99/year</p>
           </div>
-          <button> 
-            <img src="./images/icon-cart.svg" alt="">
-            Add to Cart
-             </button>
+        </div>
+        <a href="#">Change</a>
+      </div>
+      
+      <button class="btn">Proceed to Payment</button>
+      <p class="p-4">Cancel Order</p>
 
-</div>
+
+
+    </div>
+
+
 
   </main>
 
   
+  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">nada khaled</a>.
+    Coded by <a href="#">Your Name Here</a>.
   </div>
 </body>
 </html>
